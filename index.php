@@ -5,6 +5,8 @@ include ('config.php');
 $obj = new Car();
 $obj->getConn();
 var_dump($obj->getListOfCars());
+var_dump($obj->getListOfCarsById(2));
+
 
 /*try {
     $server = new SoapServer('server/wsdl.wsdl');
