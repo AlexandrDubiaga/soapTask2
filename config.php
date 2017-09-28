@@ -1,7 +1,7 @@
 <?php
-define('USER','mmbti');
-define('DB','NSI');
-define('HOST','10.3.149.123');
-define('PASSWORD','bti');
+define('USER','user2');
+define('DB','user2');
+define('HOST','localhost');
+define('PASSWORD','tuser2');
 
 ?>
