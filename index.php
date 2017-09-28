@@ -14,7 +14,7 @@ try {
 }
 $client = new
 SoapClient(
-    "http://localhost/dashboard/soaptask2/index.php?a=Car&amp;amp;action=wsdl"
+    "http://192.168.0.15/~user2/SOAP/soapTask2/index.php?a=Car&amp;amp;action=wsdl"
 );
 echo $client->getListOfCars();
 
