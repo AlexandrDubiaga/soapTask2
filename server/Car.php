@@ -40,7 +40,7 @@ class Car
     
      public function getListOfCarsById($id)
     {
-        $result = mysqli_query($this->conn, "SELECT id, marka, model, year, engine_capacity, color, max_speed, price FROM AutoShop where id = `$id` ");
+        $result = mysqli_query($this->conn, "SELECT id, marka, model, year, engine_capacity, color, max_speed, price FROM AutoShop where id = 2 ");
         while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {
         }
         return $row;
