@@ -55,8 +55,9 @@ class Car
             }
         }
             $query = mysqli_query($this->conn, 'SELECT * FROM AutoShop');
+         var_dump($query);
         if (sizeof($conditions)) {
-        $query .= " ' WHERE ' . 'marka = Ferrari' "/*implode(' AND ', $conditions)*/;
+        $query .=  ' WHERE ' . 'marka = Ferrari' /*implode(' AND ', $conditions)*/;
              while ($row[] = mysqli_fetch_array($query, MYSQL_ASSOC)) {}
             return $row;
         }
