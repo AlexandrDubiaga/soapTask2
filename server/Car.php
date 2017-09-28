@@ -47,15 +47,13 @@ class Car
 
     }
     
-     public function getListOfCarsByParams()
+     public function getListOfCarsByParams($arr)
     {
-        $conditions = array();
-        $columns = array();
-        for ($i = 0; $i < 9; $i++) {
-        if (!empty(${'s' . $i})) {
-         $conditions[] = sprintf("%s = '%s'", $columns[$i], ${'s' . $i});
-        }
-        }
+       foreach ($arr as $field => $value) {
+    if ($value) {
+        $conditions[] = sprintf("%s = '%s'", $field, $value);
+    }
+    }
             $query = mysqli_query($this->conn, 'SELECT * FROM AutoShop');
         if (sizeof($conditions)) {
         $query .= ' WHERE ' . implode(' AND ', $conditions);
