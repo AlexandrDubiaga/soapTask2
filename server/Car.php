@@ -50,17 +50,17 @@ class Car
      public function getListOfCarsByParams($arr)
     {
        foreach ($arr as $field => $value) {
-    if ($value) {
-        $conditions[] = sprintf("%s = '%s'", $field, $value);
-    }
-    }
+            if ($value) {
+            $conditions[] = sprintf("%s = '%s'", $field, $value);
+            }
+        }
             $query = mysqli_query($this->conn, 'SELECT * FROM AutoShop');
         if (sizeof($conditions)) {
         $query .= ' WHERE ' . implode(' AND ', $conditions);
+             while ($row[] = mysqli_fetch_array($query, MYSQL_ASSOC)) {}
+            return $row;
         }
-          while ($row[] = mysqli_fetch_array($query, MYSQL_ASSOC)) {
-        }
-        return $row;
+         
          
          
          
