@@ -20,6 +20,6 @@ SoapClient(
 );
 echo $client->getListOfCars();*/
 
-*/
+
 
 ?>
