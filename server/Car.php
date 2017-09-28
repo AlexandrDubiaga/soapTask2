@@ -50,7 +50,7 @@ class Car
      public function getListOfCarsByParams()
     {
         $conditions = array();
-        $columns = array('id', 'marka', 'model', 'year_car', 'engine_capacity', 'color', 'max_speed', 'price');
+        $columns = array();
         for ($i = 0; $i < 9; $i++) {
         if (!empty(${'s' . $i})) {
          $conditions[] = sprintf("%s = '%s'", $columns[$i], ${'s' . $i});
