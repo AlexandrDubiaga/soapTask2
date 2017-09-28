@@ -52,7 +52,7 @@ class Car
        foreach ($arr as $field => $value) {
             if ($value) {
             $conditions[] = sprintf("%s = '%s'", $field, $value);
-                var_dump( $condition);
+                var_dump( $value);
             }
         }
             $query = mysqli_query($this->conn, 'SELECT * FROM AutoShop');
