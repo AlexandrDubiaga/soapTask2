@@ -30,7 +30,7 @@ class Car
 
     public function getListOfCars()
     {
-        $result = mysqli_query($this->conn, "SELECT * FROM svt");
+        $result = mysqli_query($this->conn, "SELECT * FROM AutoShop");
         while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {
         }
         return $row;
