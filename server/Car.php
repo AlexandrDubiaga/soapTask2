@@ -52,7 +52,7 @@ class Car
          
          $sql="select AutoShop.id, AutoShop.marka, AutoShop.model, AutoShop.year_car, AutoShop.engine_capacity, AutoShop.color, AutoShop.max_speed, AutoShop.price  (AutoShop.id like '%$searchcontact%')
          AS sovp1, (AutoShop.marka like '%$searchcontact%') AS sovp2, (AutoShop.model like '%$searchcontact%') AS sovp3, (AutoShop.year_car like '%$searchcontact%') AS sovp4, (AutoShop.engine_capacity like '%$searchcontact%') AS sovp5, (AutoShop.color like '%$searchcontact%') AS sovp6, (AutoShop.max_speed like '%$searchcontact%') AS sovp7, (AutoShop.price like '%$searchcontact%')  HAVING sovp1+sovp2+sovp3+sovp4+sovp5+sovp6+sovp7>=2;"
-          while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {
+          while ($row[] = mysqli_fetch_array($sql, MYSQL_ASSOC)) {
         }
         return $row;
          
