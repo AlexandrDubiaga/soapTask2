@@ -8,7 +8,7 @@ var_dump($obj->getListOfCars());
 var_dump($obj->getListOfCarsById(2));
 echo "<br>";
 echo "<br>";
-$arr = array('marka'=>'Ferarri');
+$arr = array('marka'=>'Ferarri','model' =>'Sport');
 var_dump($obj->getListOfCarsByParams($arr));
 
 
