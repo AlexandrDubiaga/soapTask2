@@ -54,12 +54,10 @@ class Car
             $conditions[] = sprintf("%s = '%s'", $field, $value);  
             }
         }
-         $x = implode(' AND ',   $conditions);
-         var_dump($x);
-           
-            $result = mysqli_query($this->conn, "SELECT * FROM AutoShop");
-             if (sizeof($conditions)) { 
-             while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {}
+            $res = implode(' AND ',   $conditions); 
+            if (sizeof($res)) { 
+            $result = mysqli_query($this->conn, "SELECT * FROM AutoShop WHERE $res");
+            while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {}
             return $row;
         }
          
