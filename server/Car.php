@@ -59,21 +59,7 @@ class Car
             $result = mysqli_query($this->conn, "SELECT * FROM AutoShop WHERE $res");
             while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {}
             return $row;
-        }
-         
-         
-         
-         
-         
-         
-         
-      /*   
-        $result = mysqli_query($this->conn, "SELECT id, marka, model, year, engine_capacity, color, max_speed, price FROM AutoShop where id = $id");
-        while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {
-        }
-        return $row;
-
-*/
+        
     }
 }
 ?>
