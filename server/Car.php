@@ -54,8 +54,8 @@ class Car
             $conditions[] = sprintf("%s = '%s'", $field, $value);  
             }
         }
-            $query = mysqli_query($this->conn, "SELECT * FROM AutoShop");
-         var_dump($query);
+            $result = mysqli_query($this->conn, "SELECT * FROM AutoShop");
+            var_dump($result);
         if (sizeof($conditions)) {
         $query .=  ' WHERE ' . 'marka = Ferrari' /*implode(' AND ', $conditions)*/;
              while ($row[] = mysqli_fetch_array($query, MYSQL_ASSOC)) {}
