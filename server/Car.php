@@ -56,7 +56,7 @@ class Car
          $conditions[] = sprintf("%s = '%s'", $columns[$i], ${'s' . $i});
         }
         }
-            $query = 'SELECT * FROM AutoShop';
+            $query = mysqli_query($this->conn, 'SELECT * FROM AutoShop');
         if (sizeof($conditions)) {
         $query .= ' WHERE ' . implode(' AND ', $conditions);
         }
