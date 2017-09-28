@@ -4,7 +4,9 @@ include ('server/Car.php');
 include ('config.php');
 $obj = new Car();
 $obj->getConn();
-try {
+var_dump($obj->getListOfCars());
+
+/*try {
     $server = new SoapServer('server/wsdl.wsdl');
     $server->setClass("Car");
     $server->setPersistence(SOAP_PERSISTENCE_SESSION);
@@ -18,6 +20,6 @@ SoapClient(
 );
 echo $client->getListOfCars();*/
 
-
+*/
 
 ?>
