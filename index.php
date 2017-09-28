@@ -12,11 +12,11 @@ try {
 } catch (ExceptionFileNotFound $e) {
     echo 'Error message: ' . $e->getMessage();
 }
-$client = new
+/*$client = new
 SoapClient(
     "http://192.168.0.15/~user2/SOAP/soapTask2/index.php?a=Car&amp;amp;action=wsdl"
 );
-echo $client->getListOfCars();
+echo $client->getListOfCars();*/
 
 
 
