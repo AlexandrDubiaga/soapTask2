@@ -58,8 +58,7 @@ class Car
          var_dump($x);
            
             $result = mysqli_query($this->conn, "SELECT * FROM AutoShop");
-             if (sizeof($conditions)) {
-             $result .=  .  ' WHERE ' . implode(' AND ', $conditions)    
+             if (sizeof($conditions)) { 
              while ($row[] = mysqli_fetch_array($result, MYSQL_ASSOC)) {}
             return $row;
         }
