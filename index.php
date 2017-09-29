@@ -26,7 +26,14 @@ echo 'Error message: ' . $e->getMessage();
 }
 $client = new
 SoapClient('http://192.168.0.15/~user2/SOAP/soapTask2/server/wsdl.wsdl');
-print_r($client->getListOfCars());
+try {
+    var_dump($client->getListOfCars());
+} catch (Exception $e) {
+    echo($client->__getLastResponse());
+    echo PHP_EOL;
+    echo($client->__getLastRequest());
+}
+
 
 
 ?>
