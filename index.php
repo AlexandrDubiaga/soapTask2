@@ -20,7 +20,8 @@ try {
 $server = new SoapServer('server/wsdl.wsdl');
 $server->setClass("Car");
 $server->setPersistence(SOAP_PERSISTENCE_SESSION);
-$server->handle();
+
+    var_dump($server->handle());
 } catch (ExceptionFileNotFound $e) {
 echo 'Error message: ' . $e->getMessage();
 }
