@@ -23,6 +23,7 @@ $server->handle();
 echo 'Error message: ' . $e->getMessage();
 }
 $client = new SoapClient('http://192.168.0.15/~user2/SOAP/soapTask2/server/wsdl.wsdl', array('trace' => true, 'keep_alive' => false));
+print_r($client->__getFunctions());
  $client->getListOfCars();
 echo "REQUEST:\n" . $client->__getLastRequest() . "\n";
 
