@@ -25,7 +25,7 @@ $server->handle();
 echo 'Error message: ' . $e->getMessage();
 }
 $client = new
-SoapClient($server);
+SoapClient('server/wsdl.wsdl');
 echo $client->getListOfCars();
 
 
