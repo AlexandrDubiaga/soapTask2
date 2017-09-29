@@ -43,6 +43,32 @@ Julien Blitte
 </schema>
 </types>
 <!--  response messages  -->
+ 
+ <message name="returns_resultcode">
+<part name="resultcode" type="xsd:resultcode"/>
+</message>
+<message name="returns_number">
+<part name="number" type="xsd:number"/>
+</message>
+<message name="returns_message">
+<part name="message" type="xsd:message"/>
+</message>
+<!--  request messages  -->
+<message name="post_message">
+<part name="nickname" type="xsd:nickname"/>
+<part name="message" type="xsd:message"/>
+</message>
+<message name="get_number_of_messages">
+<part name="nickname" type="xsd:nickname"/>
+</message>
+<message name="retrieve_message">
+<part name="nickname" type="xsd:nickname"/>
+<part name="number" type="xsd:number"/>
+</message>
+<message name="retrieve_last_message">
+<part name="nickname" type="xsd:nickname"/>
+<part name="number" type="xsd:number"/>
+</message>
 
 <message name="returns_message">
 <part name="message" type="xsd:string"/>
