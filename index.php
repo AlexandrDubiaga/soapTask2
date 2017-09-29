@@ -17,7 +17,7 @@ $obj->getOrderCar($arr2);
 
 try {
 $server = new SoapServer('server/wsdl.wsdl');
-$server->setClass('Car');
+$server->setClass('server/Car.php');
 $server->setPersistence(SOAP_PERSISTENCE_SESSION);
 
 $server->handle();
