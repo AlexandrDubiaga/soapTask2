@@ -22,7 +22,7 @@
 </message>
 <!--  request messages  -->
 <message name="getListOfCars">
-<part name="void" type="xsd:void"/>
+<part name="void" type="xsd:string"/>
 </message>
 <!--  server's services  -->
 <portType name="my SOAP forum">
