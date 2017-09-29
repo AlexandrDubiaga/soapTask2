@@ -70,10 +70,6 @@ Julien Blitte
 <part name="number" type="xsd:number"/>
 </message>
 
-<message name="returns_message">
-<part name="message" type="xsd:string"/>
-</message>
-<!--  request messages  -->
 
 
 <!--  server's services  -->
