@@ -69,6 +69,10 @@ Julien Blitte
 <part name="nickname" type="xsd:nickname"/>
 <part name="number" type="xsd:number"/>
 </message>
+ 
+ <message name="message">
+<part name="body" type="xsd:string" />
+</message>
 
 
 
