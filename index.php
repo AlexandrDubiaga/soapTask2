@@ -1,5 +1,5 @@
 <?php
-ini_set('soap.wsdl_cache_enabled', 'Off');
+default_socket_timeout = 120;
 include ('server/Car.php');
 include ('config.php');
 $obj = new Car();
