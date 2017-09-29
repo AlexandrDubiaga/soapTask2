@@ -1,5 +1,4 @@
 <?php
-default_socket_timeout = 120;
 include ('server/Car.php');
 include ('config.php');
 $obj = new Car();
