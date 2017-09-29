@@ -18,7 +18,7 @@ $obj->getOrderCar($arr2);
 
 try {
 $server = new SoapServer('server/wsdl.wsdl');
-var_dump($server->setClass("Car"));
+$server->setClass('Car');
 $server->setPersistence(SOAP_PERSISTENCE_SESSION);
 
 $server->handle();
@@ -26,7 +26,7 @@ $server->handle();
 echo 'Error message: ' . $e->getMessage();
 }
 $client = new
-SoapClient('http://192.168.0.15/~user2/SOAP/soapTask2/server/wsdl.wsdl');
+SoapClient('http://192.168.0.15/~user2/SOAP/soapTask2/server/wsdl.wsdl', array('trace' => 1));
 
     //var_dump($client->getListOfCars());
 var_dump($client->__getLastRequest());
