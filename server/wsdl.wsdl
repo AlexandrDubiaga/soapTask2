@@ -83,7 +83,8 @@ Julien Blitte
 </operation>
 </portType>
 <!--  server encoding  -->
-
+<binding name="my SOAP forum_webservices" type="tns:my SOAP forum">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
  <operation name="getListOfCars">
 <soap:operation soapAction="urn:xmethods-delayed-quotes#getListOfCars"/>
 <input>
@@ -93,6 +94,7 @@ Julien Blitte
 <soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
 </output>
 </operation>
+ </binding>
  <service name="exemple">
 <port name="exemple_0" binding="my SOAP forum_webservices">
 <soap:address location="http://192.168.0.15/~user2/SOAP/soapTask2/index.php"/>
