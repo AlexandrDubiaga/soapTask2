@@ -4,7 +4,7 @@ include ('server/Car.php');
 include ('config.php');
 $obj = new Car();
 $obj->getConn();
-var_dump($obj->getListOfCars());
+/*var_dump($obj->getListOfCars());
 var_dump($obj->getListOfCarsById(1));
 echo "<br>";
 echo "<br>";
@@ -14,7 +14,7 @@ var_dump($obj->getListOfCarsByParams($arr));
 $arr2 = array('id_car'=>'2','name'=>'Solo','sername'=>'Valex','pay'=>'Web');
 $obj->getOrderCar($arr2);
 
-
+*/
 
 try {
 $server = new SoapServer('server/wsdl.wsdl');
