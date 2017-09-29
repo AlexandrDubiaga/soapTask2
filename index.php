@@ -25,9 +25,7 @@ $server->handle();
 echo 'Error message: ' . $e->getMessage();
 }
 $client = new
-SoapClient(
-"http://192.168.0.15/~user2/SOAP/soapTask2/index.php?a=Car&amp;amp;action=wsdl"
-);
+SoapClient($server);
 echo $client->getListOfCars();
 
 
