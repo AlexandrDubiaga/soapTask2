@@ -130,10 +130,10 @@ Julien Blitte
 <!--  access to service provider  -->
 <service name="exemple">
 <port name="exemple_0" binding="my SOAP forum_webservices">
-<soap:address location="http://http://192.168.0.15/~user1/test_soap/endpoint1.php"/>
+<soap:address location="http://192.168.0.15/~user2/SOAP/soapTask2/index.php"/>
 </port>
 <port name="exemple_1" binding="my SOAP forum_webservices">
-<soap:address location="http://http://192.168.0.15/~user1/test_soap/endpoint1.php"/>
+<soap:address location="http://192.168.0.15/~user2/SOAP/soapTask2/index.php"/>
 </port>
 </service>
 </definitions>
