@@ -43,82 +43,24 @@ Julien Blitte
 </schema>
 </types>
 <!--  response messages  -->
-<message name="returns_resultcode">
-<part name="resultcode" type="xsd:resultcode"/>
-</message>
-<message name="returns_number">
-<part name="number" type="xsd:number"/>
-</message>
+
 <message name="returns_message">
-<part name="message" type="xsd:message"/>
+<part name="message" type="xsd:string"/>
 </message>
 <!--  request messages  -->
-<message name="post_message">
-<part name="nickname" type="xsd:nickname"/>
-<part name="message" type="xsd:message"/>
-</message>
-<message name="get_number_of_messages">
-<part name="nickname" type="xsd:nickname"/>
-</message>
-<message name="retrieve_message">
-<part name="nickname" type="xsd:nickname"/>
-<part name="number" type="xsd:number"/>
-</message>
-<message name="retrieve_last_message">
-<part name="nickname" type="xsd:nickname"/>
-<part name="number" type="xsd:number"/>
-</message>
+
+
 <!--  server's services  -->
 <portType name="my SOAP forum">
-<operation name="post_message">
-<input message="tns:post_message"/>
-<output message="tns:returns_resultcode"/>
-</operation>
-<operation name="get_number_of_messages">
-<input message="tns:get_number_of_messages"/>
-<output message="tns:returns_number"/>
-</operation>
-<operation name="retrieve_message">
-<input message="tns:retrieve_message"/>
-<output message="tns:returns_message"/>
-</operation>
-<operation name="retrieve_last_message">
-<input message="tns:retrieve_last_message"/>
-<output message="tns:returns_message"/>
+<operation name="getListOfCars">
+<output message="tns:message"/>
 </operation>
 </portType>
 <!--  server encoding  -->
 <binding name="my SOAP forum_webservices" type="tns:my SOAP forum">
 <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
-<operation name="post_message">
-<soap:operation soapAction="urn:xmethods-delayed-quotes#post_message"/>
-<input>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</input>
-<output>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</output>
-</operation>
-<operation name="get_number_of_messages">
-<soap:operation soapAction="urn:xmethods-delayed-quotes#get_number_of_messages"/>
-<input>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</input>
-<output>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</output>
-</operation>
-<operation name="retrieve_message">
-<soap:operation soapAction="urn:xmethods-delayed-quotes#retrieve_message"/>
-<input>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</input>
-<output>
-<soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
-</output>
-</operation>
-<operation name="retrieve_last_message">
-<soap:operation soapAction="urn:xmethods-delayed-quotes#retrieve_last_message"/>
+ <operation name="getListOfCars">
+<soap:operation soapAction="urn:xmethods-delayed-quotes#getListOfCars"/>
 <input>
 <soap:body use="encoded" namespace="urn:xmethods-delayed-quotes" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
 </input>
