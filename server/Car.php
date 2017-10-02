@@ -19,7 +19,7 @@ class Car
             } else {
                 $this->conn = mysqli_connect($this->host, $this->user, $this->password, $this->dB);
                 if ($this->conn) {
-                    echo "Connect";
+                    return true;
                 }
             }
         } catch (Exception $connectExeption) {
