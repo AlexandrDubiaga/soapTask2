@@ -9,10 +9,6 @@ class Car
         $this->dB = DB;
         $this->host = HOST;
         $this->password = PASSWORD;
-    }
-
-    public function getConn()
-    {
         try {
             if (!isset($this->user) || !isset($this->dB) || !isset($this->host) || !isset($this->password)) {
                 throw new Exception('Something wrong with filds connect to DB mysql');
@@ -26,8 +22,8 @@ class Car
             echo $connectExeption->getMessage(), "\n";
         }
         return $this->conn;
-    }
 
+    }
     public function getListOfCars()
     {
         $result = mysqli_query($this->conn, "SELECT id, marka, model FROM AutoShop");

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c99cca-7876-4493-82f0-2f5eda23f482" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/template/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/wsdl.wsdl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/wsdl.wsdl" afterPath="$PROJECT_DIR$/server/wsdl.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Client.php" afterPath="$PROJECT_DIR$/client/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/Car.php" afterPath="$PROJECT_DIR$/server/Car.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.php" afterPath="$PROJECT_DIR$/server/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,31 +19,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="34">
+              <caret line="2" column="114" lean-forward="false" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsdl.wsdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/wsdl.wsdl">
+      <file leaf-file-name="MySoap.wsdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/MySoap.wsdl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="126" lean-forward="false" selection-start-line="10" selection-start-column="126" selection-end-line="10" selection-end-column="126" />
+            <state relative-caret-position="357">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,15 +62,15 @@
       <file leaf-file-name="Car.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/Car.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
-                <marker date="1506924575360" expanded="true" signature="905:942" ph="SELECT id, m... AutoShop" />
-                <marker date="1506924575360" expanded="true" signature="1206:1307" ph="SELECT id, m... AutoShop" />
-                <marker date="1506924575360" expanded="true" signature="1892:1921" ph="SELECT * FRO... AutoShop" />
-                <marker date="1506924575360" expanded="true" signature="2259:2315" ph="INSERT INTO Orders... " />
-                <marker date="1506924575360" expanded="true" signature="2259:2391" ph="INSERT INTO Orders... " />
-                <marker date="1506924575360" expanded="true" signature="2259:2393" ph="INSERT INTO Orders... " />
+                <marker date="1506934720148" expanded="true" signature="862:899" ph="SELECT id, m... AutoShop" />
+                <marker date="1506934720148" expanded="true" signature="1163:1264" ph="SELECT id, m... AutoShop" />
+                <marker date="1506934720148" expanded="true" signature="1849:1878" ph="SELECT * FRO... AutoShop" />
+                <marker date="1506934720148" expanded="true" signature="2216:2272" ph="INSERT INTO Orders... " />
+                <marker date="1506934720148" expanded="true" signature="2216:2348" ph="INSERT INTO Orders... " />
+                <marker date="1506934720148" expanded="true" signature="2216:2350" ph="INSERT INTO Orders... " />
               </folding>
             </state>
           </provider>
@@ -67,13 +80,20 @@
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,9 +104,12 @@
         <option value="$PROJECT_DIR$/server/wsdl.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/template/index.html" />
         <option value="$PROJECT_DIR$/server/Car.php" />
-        <option value="$PROJECT_DIR$/server/index.php" />
         <option value="$PROJECT_DIR$/server/wsdl.wsdl" />
+        <option value="$PROJECT_DIR$/server/index.php" />
+        <option value="$PROJECT_DIR$/server/MySoap.wsdl" />
         <option value="$PROJECT_DIR$/client/Client.php" />
       </list>
     </option>
@@ -117,27 +140,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapTask2" />
+              <option name="myItemId" value="soap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapTask2" />
+              <option name="myItemId" value="soap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapTask2" />
+              <option name="myItemId" value="soap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapTask2" />
+              <option name="myItemId" value="soap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -145,16 +166,53 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dashboard\soapTask2\client\template" />
+      <recent name="C:\xampp\htdocs\dashboard\soapTask2\client" />
       <recent name="C:\xampp\htdocs\dashboard\soapTask2\server" />
     </key>
   </component>
@@ -252,27 +310,28 @@
       <workItem from="1506584481102" duration="5326000" />
       <workItem from="1506670583913" duration="2223000" />
       <workItem from="1506679372635" duration="4084000" />
-      <workItem from="1506921478424" duration="3057000" />
+      <workItem from="1506921478424" duration="9514000" />
+      <workItem from="1506934249335" duration="6127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="27274000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -295,6 +354,61 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <marker date="1506934720148" expanded="true" signature="862:899" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1163:1264" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1849:1878" ph="SELECT * FRO... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="2216:2272" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2348" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2350" ph="INSERT INTO Orders... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/wsdl.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="170" column="72" lean-forward="false" selection-start-line="170" selection-start-column="72" selection-end-line="170" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -306,12 +420,12 @@
         <state relative-caret-position="1054">
           <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
-            <marker date="1506924575360" expanded="true" signature="905:942" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1206:1307" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1892:1921" ph="SELECT * FRO... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="2259:2315" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2391" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2393" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="862:899" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1163:1264" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1849:1878" ph="SELECT * FRO... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="2216:2272" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2348" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2350" ph="INSERT INTO Orders... " />
           </folding>
         </state>
       </provider>
@@ -345,12 +459,12 @@
         <state relative-caret-position="1411">
           <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
           <folding>
-            <marker date="1506924575360" expanded="true" signature="905:942" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1206:1307" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1892:1921" ph="SELECT * FRO... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="2259:2315" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2391" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2393" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="862:899" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1163:1264" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1849:1878" ph="SELECT * FRO... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="2216:2272" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2348" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2350" ph="INSERT INTO Orders... " />
           </folding>
         </state>
       </provider>
@@ -373,49 +487,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/wsdl.wsdl" />
     <entry file="file://$PROJECT_DIR$/server/wsdl.php" />
+    <entry file="file://$PROJECT_DIR$/server/wsdl.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/MySoap.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/Car.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <marker date="1506924575360" expanded="true" signature="905:942" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1206:1307" ph="SELECT id, m... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="1892:1921" ph="SELECT * FRO... AutoShop" />
-            <marker date="1506924575360" expanded="true" signature="2259:2315" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2391" ph="INSERT INTO Orders... " />
-            <marker date="1506924575360" expanded="true" signature="2259:2393" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="862:899" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1163:1264" ph="SELECT id, m... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="1849:1878" ph="SELECT * FRO... AutoShop" />
+            <marker date="1506934720148" expanded="true" signature="2216:2272" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2348" ph="INSERT INTO Orders... " />
+            <marker date="1506934720148" expanded="true" signature="2216:2350" ph="INSERT INTO Orders... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/wsdl.wsdl">
+    <entry file="file://$PROJECT_DIR$/client/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="126" lean-forward="false" selection-start-line="10" selection-start-column="126" selection-end-line="10" selection-end-column="126" />
+        <state relative-caret-position="34">
+          <caret line="2" column="114" lean-forward="false" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="114" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
